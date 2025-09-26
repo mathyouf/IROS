@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IROS 2025 Schedule</title>
+        <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #212529;
+            margin: 0;
+            padding: 20px;
+        }
+        #schedule-container {
+            max-width: 95%;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .day-container {
+            margin-bottom: 40px;
+        }
+        .time-slot {
+            display: flex;
+            margin-bottom: 20px;
+            border-top: 1px solid #e0e0e0;
+            padding-top: 20px;
+            align-items: flex-start; /* Fix for stretching issue */
+        }
+        .time-label {
+            flex: 0 0 100px;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #495057;
+            padding-top: 15px;
+        }
+        .total-papers-in-slot {
+            font-size: 0.8em;
+            font-weight: normal;
+            color: #6c757d;
+        }
+        .sessions-container {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .session {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            width: 320px; /* Fixed width */
+            height: 400px; /* Fixed height for session cards */
+        }
+        .session-header {
+            padding: 10px 15px;
+            background-color: #e9ecef;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .session-header h3 {
+            margin: 0;
+            font-size: 1em;
+            color: #343a40;
+            font-weight: bold;
+            min-height: 3.6em; /* Afford space for 3 lines of title */
+            display: flex;
+            align-items: center;
+        }
+        .session-details {
+            font-size: 0.8em;
+            color: #6c757d;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+        }
+        .session-content {
+            padding: 15px;
+            overflow-y: auto;
+            flex-grow: 1; /* Allow content to fill available space */
+            min-height: 0; /* Important for flexbox scrolling */
+        }
+        .paper {
+            border-bottom: 1px solid #f1f3f5;
+            padding: 10px 0;
+        }
+        .paper:last-child {
+            border-bottom: none;
+        }
+        .paper-title {
+            font-weight: normal;
+            color: #212529; /* Black */
+            cursor: pointer; /* Make it clickable */
+            font-size: 0.9em;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            line-clamp: 3; /* Standard property for compatibility */
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .paper-abstract {
+            display: none; /* Hidden by default */
+            margin-top: 8px;
+            padding-left: 10px;
+            border-left: 3px solid #007bff;
+            background-color: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+        }
+        .paper-abstract .paper-authors {
+            font-style: italic;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .highlighted-paper .paper-title {
+            color: #850000;
+            font-weight: bold;
+        }
+        .highlighted-session > .session-header {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+        }
+        .highlight-count {
+            background-color: #ffc107;
+            color: #343a40;
+            border-radius: 5px;
+            padding: 2px 6px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        .toggle-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+        <div id="schedule-container">
+        <h1>IROS 2025 Conference Schedule</h1>
+                <div class="toggle-container">
+            <label>
+                <input type="checkbox" id="highlight-toggle" checked> Show only sessions with my papers
+            </label>
+        </div>
+        <div id="schedule"></div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const fetchSchedule = fetch('schedule.json').then(response => response.json());
+        const fetchPapersToHighlight = fetch('topapers.csv').then(response => response.text());
+        let fullScheduleData = [];
+        let highlightTitles = new Set();
+
+        Promise.all([fetchSchedule, fetchPapersToHighlight])
+            .then(([scheduleData, csvData]) => {
+                fullScheduleData = scheduleData;
+                highlightTitles = new Set(csvData.split('\n').map(title => title.trim().replace(/^"|"$/g, '')));
+                renderSchedule(true); // Initial render
+
+                                document.getElementById('highlight-toggle').addEventListener('change', (event) => {
+                    renderSchedule(event.target.checked);
+                });
+
+            })
+            .catch(error => console.error('Error loading data:', error));
+
+        function renderSchedule(showOnlyHighlighted) {
+            const scheduleDiv = document.getElementById('schedule');
+            scheduleDiv.innerHTML = ''; // Clear previous content
+
+            // 1. Pre-process data to add highlight info
+            const processedData = fullScheduleData.map(session => {
+                let highlightCount = 0;
+                const processedPapers = session.papers.map(paper => {
+                    const isHighlighted = highlightTitles.has(paper.title);
+                    if (isHighlighted) highlightCount++;
+                    return { ...paper, isHighlighted };
+                });
+                return { ...session, papers: processedPapers, highlightCount };
+            });
+
+            const finalData = showOnlyHighlighted ? processedData.filter(s => s.highlightCount > 0) : processedData;
+
+            // 2. Group by day, then by time
+            const groupedByDayTime = finalData.reduce((acc, session) => {
+                const day = session.day.charAt(0).toUpperCase() + session.day.slice(1);
+                if (!session.papers.length) return acc; // Skip sessions with no papers
+                const startTime = session.papers[0].time.split('-')[0].trim();
+
+                if (!acc[day]) acc[day] = {};
+                if (!acc[day][startTime]) acc[day][startTime] = [];
+                acc[day][startTime].push(session);
+                return acc;
+            }, {});
+
+            // 3. Render the structure
+            const dayOrder = ['Tuesday', 'Wednesday', 'Thursday', 'Workshops'];
+            const sortedDays = Object.keys(groupedByDayTime).sort((a, b) => dayOrder.indexOf(a) - dayOrder.indexOf(b));
+
+            for (const day of sortedDays) {
+                const dayContainer = document.createElement('div');
+                dayContainer.className = 'day-container';
+                const dayHeader = document.createElement('h2');
+                dayHeader.textContent = day;
+                dayContainer.appendChild(dayHeader);
+
+                const sortedTimes = Object.keys(groupedByDayTime[day]).sort();
+
+                for (const time of sortedTimes) {
+                    const timeSlot = document.createElement('div');
+                    timeSlot.className = 'time-slot';
+
+                    const sessionsInTimeSlot = groupedByDayTime[day][time];
+                    const totalPapersInTimeSlot = sessionsInTimeSlot.reduce((total, session) => total + session.highlightCount, 0);
+
+                    const timeLabel = document.createElement('div');
+                    timeLabel.className = 'time-label';
+                    timeLabel.innerHTML = `${time}${totalPapersInTimeSlot > 0 ? `<br><span class="total-papers-in-slot">(${totalPapersInTimeSlot} ${totalPapersInTimeSlot === 1 ? 'my paper' : 'my papers'})</span>` : ''}`;
+                    timeSlot.appendChild(timeLabel);
+
+                    const sessionsContainer = document.createElement('div');
+                    sessionsContainer.className = 'sessions-container';
+
+                    groupedByDayTime[day][time].forEach(session => {
+                        const sessionElem = document.createElement('div');
+                        sessionElem.className = 'session';
+                        if (session.highlightCount > 0) {
+                            sessionElem.classList.add('highlighted-session');
+                        }
+
+                        const header = document.createElement('div');
+                        header.className = 'session-header';
+                        header.innerHTML = `
+                            <div>
+                                <h3>${session.session_code}: ${session.session_title}</h3>
+                                <div class="session-details">
+                                    <span>Room: ${session.room}</span>
+                                    ${session.highlightCount > 0 ? `<span class="highlight-count">${session.highlightCount} papers</span>` : ''}
+                                </div>
+                            </div>
+                        `;
+
+                        const content = document.createElement('div');
+                        content.className = 'session-content';
+
+                        session.papers.forEach(paper => {
+                            const paperElem = document.createElement('div');
+                            paperElem.className = 'paper';
+                            if (paper.isHighlighted) {
+                                paperElem.classList.add('highlighted-paper');
+                            }
+                                                        paperElem.innerHTML = `
+                                <div class="paper-title">${paper.paper_code}: ${paper.title}</div>
+                                <div class="paper-abstract">
+                                    <div class="paper-authors"><strong>Authors:</strong> ${paper.authors.map(a => a.name).join(', ')}</div>
+                                    <strong>Keywords:</strong> ${paper.keywords.join(', ')}<br>
+                                    <strong>Abstract:</strong> ${paper.abstract}
+                                </div>
+                            `;
+
+                            paperElem.querySelector('.paper-title').onclick = () => {
+                                const abstract = paperElem.querySelector('.paper-abstract');
+                                abstract.style.display = abstract.style.display === 'block' ? 'none' : 'block';
+                            };
+
+                            content.appendChild(paperElem);
+                        });
+
+                        sessionElem.appendChild(header);
+                        sessionElem.appendChild(content);
+                        sessionsContainer.appendChild(sessionElem);
+                    });
+
+                    timeSlot.appendChild(sessionsContainer);
+                    dayContainer.appendChild(timeSlot);
+                }
+                scheduleDiv.appendChild(dayContainer);
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
