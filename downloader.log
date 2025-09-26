@@ -1,0 +1,189 @@
+2025-09-26 13:28:04,157 - INFO - --- Script Execution Started ---
+2025-09-26 13:28:04,158 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/A Soft Thermal-Haptic Multimodal Fingertip Wearable Device for Immersive Virtual Reality.pdf. Skipping.
+2025-09-26 13:28:04,158 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/A Bionic Robotic Hand Designed with Multiple Grasping Modes and Magnetic Tactile Perception.pdf. Skipping.
+2025-09-26 13:28:04,158 - INFO - Searching arXiv for 'Dual-Modal Soft Magnetic Skin with Anti-Magnetic Interference Structure for Tactile Perception'
+2025-09-26 13:28:05,530 - WARNING - No arXiv PDF found for: Dual-Modal Soft Magnetic Skin with Anti-Magnetic Interference Structure for Tactile Perception
+2025-09-26 13:28:08,535 - INFO - Searching arXiv for 'A Modular E-Skin for Safe and Dexterous Robotic Manipulation'
+2025-09-26 13:28:09,810 - WARNING - No arXiv PDF found for: A Modular E-Skin for Safe and Dexterous Robotic Manipulation
+2025-09-26 13:28:12,810 - INFO - Searching arXiv for 'A Neuromorphic Tactile System for Reliable Braille Reading in Noisy Environments'
+2025-09-26 13:28:14,023 - WARNING - No arXiv PDF found for: A Neuromorphic Tactile System for Reliable Braille Reading in Noisy Environments
+2025-09-26 13:28:17,026 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/UniTac-NV A Unified Tactile Representation for Non-Vision-Based Tactile Sensors.pdf. Skipping.
+2025-09-26 13:28:17,026 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/A Soft E-Skin with High-Density Multi-Modal Sensing for Simultaneous Perception of Temperature and Force.pdf. Skipping.
+2025-09-26 13:28:17,026 - INFO - Searching arXiv for 'ViaTac: A High-Resolution Piezoresistive Tactile Sensor Array with Conformal Contact Surface for Shape Reconstruction'
+2025-09-26 13:28:18,269 - WARNING - No arXiv PDF found for: ViaTac: A High-Resolution Piezoresistive Tactile Sensor Array with Conformal Contact Surface for Shape Reconstruction
+2025-09-26 13:28:21,270 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/High-Dynamic Tactile Sensing for Tactile Servo Manipulation Let Robots Swing a Hammer.pdf. Skipping.
+2025-09-26 13:28:21,270 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/Soft Tactile Sensors for Robot Grippers Using Acoustic Sensing.pdf. Skipping.
+2025-09-26 13:28:21,270 - INFO - Searching arXiv for 'Stretchable and High-Precision Optical Tactile Sensor for Trajectory Tracking of Parallel Mechanisms'
+2025-09-26 13:28:22,521 - WARNING - No arXiv PDF found for: Stretchable and High-Precision Optical Tactile Sensor for Trajectory Tracking of Parallel Mechanisms
+2025-09-26 13:28:25,524 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/TacCap A Wearable FBG-Based Tactile Sensor for Seamless Human-To-Robot Skill Transfer.pdf. Skipping.
+2025-09-26 13:28:25,524 - INFO - Searching arXiv for 'Tactile Sensing Soft Fingertip with Dual Air Bag Structure for an Anthropomorphic Robotic Hand'
+2025-09-26 13:28:26,797 - WARNING - No arXiv PDF found for: Tactile Sensing Soft Fingertip with Dual Air Bag Structure for an Anthropomorphic Robotic Hand
+2025-09-26 13:28:29,801 - INFO - Searching arXiv for 'A Natural Human-Robot Interaction System for Teleoperation Based on Noncontact Haptic Feedback'
+2025-09-26 13:28:31,114 - WARNING - No arXiv PDF found for: A Natural Human-Robot Interaction System for Teleoperation Based on Noncontact Haptic Feedback
+2025-09-26 13:28:34,118 - INFO - Searching arXiv for 'A Compact, Cost-Effective, and Highly Sensitive Optical Blocking Structure (OBS) Tactile Sensor for Enhanced Robotic Grasping (I)'
+2025-09-26 13:28:35,407 - WARNING - No arXiv PDF found for: A Compact, Cost-Effective, and Highly Sensitive Optical Blocking Structure (OBS) Tactile Sensor for Enhanced Robotic Grasping (I)
+2025-09-26 13:28:38,408 - INFO - Searching arXiv for 'A Bio-Inspired Flexible Fingertip with Multimodal Tactile Sensing...'
+2025-09-26 13:28:39,819 - WARNING - No arXiv PDF found for: A Bio-Inspired Flexible Fingertip with Multimodal Tactile Sensing...
+2025-09-26 13:28:42,823 - INFO - Searching arXiv for 'A Lightweight 3-Axis Permanent Magnetic Sponge-Based Self-Adapting Tactile Sensor'
+2025-09-26 13:28:44,141 - WARNING - No arXiv PDF found for: A Lightweight 3-Axis Permanent Magnetic Sponge-Based Self-Adapting Tactile Sensor
+2025-09-26 13:28:47,142 - INFO - Searching arXiv for 'SMA-TENG Actuator with Tactile Sensing Capability'
+2025-09-26 13:28:48,423 - WARNING - No arXiv PDF found for: SMA-TENG Actuator with Tactile Sensing Capability
+2025-09-26 13:28:51,426 - INFO - Searching arXiv for 'SuperMag: Vision-Based Tactile Data Guided High-Resolution Tactile Shape Reconstruction for Magnetic Tactile Sensors'
+2025-09-26 13:28:52,712 - WARNING - No arXiv PDF found for: SuperMag: Vision-Based Tactile Data Guided High-Resolution Tactile Shape Reconstruction for Magnetic Tactile Sensors
+2025-09-26 13:28:55,718 - INFO - Searching arXiv for 'TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-To-Sim Digital Twin Sensor Model'
+2025-09-26 13:28:56,966 - WARNING - No arXiv PDF found for: TwinTac: A Wide-Range, Highly Sensitive Tactile Sensor with Real-To-Sim Digital Twin Sensor Model
+2025-09-26 13:28:59,966 - INFO - Searching arXiv for 'A Soft Magnetic Fingertip Sensor for Three-Axis Force Measurement in Robotic Grasping and Manipulation'
+2025-09-26 13:29:01,265 - WARNING - No arXiv PDF found for: A Soft Magnetic Fingertip Sensor for Three-Axis Force Measurement in Robotic Grasping and Manipulation
+2025-09-26 13:29:04,269 - INFO - Searching arXiv for 'Wearable Cutaneous Haptic Device for Hand Grasping Assistance'
+2025-09-26 13:29:05,525 - WARNING - No arXiv PDF found for: Wearable Cutaneous Haptic Device for Hand Grasping Assistance
+2025-09-26 13:29:08,528 - INFO - Searching arXiv for '3D Vision-Tactile Reconstruction from Infrared and Visible Images for Robotic Fine-Grained Tactile Perception'
+2025-09-26 13:29:09,876 - WARNING - No arXiv PDF found for: 3D Vision-Tactile Reconstruction from Infrared and Visible Images for Robotic Fine-Grained Tactile Perception
+2025-09-26 13:29:12,878 - INFO - Searching arXiv for 'Adaptive Visuo-Tactile Fusion with Predictive Force Attention for Dexterous Manipulation'
+2025-09-26 13:29:16,110 - WARNING - No arXiv PDF found for: Adaptive Visuo-Tactile Fusion with Predictive Force Attention for Dexterous Manipulation
+2025-09-26 13:29:19,112 - INFO - Searching arXiv for 'VTAO-BiManip: Masked Visual-Tactile-Action Pre-Training with Object Understanding for Bimanual Dexterous Manipulation'
+2025-09-26 13:29:20,413 - WARNING - No arXiv PDF found for: VTAO-BiManip: Masked Visual-Tactile-Action Pre-Training with Object Understanding for Bimanual Dexterous Manipulation
+2025-09-26 13:29:23,418 - INFO - Searching arXiv for 'A Soft Fingertip with Force and Slip Sensing Based on Piezo-Phototronic Effect'
+2025-09-26 13:29:24,879 - WARNING - No arXiv PDF found for: A Soft Fingertip with Force and Slip Sensing Based on Piezo-Phototronic Effect
+2025-09-26 13:29:27,883 - INFO - Searching arXiv for 'A High-Sensitivity Flexible Tactile Sensor Based on Micro-Structured Dielectric Layer'
+2025-09-26 13:29:29,153 - WARNING - No arXiv PDF found for: A High-Sensitivity Flexible Tactile Sensor Based on Micro-Structured Dielectric Layer
+2025-09-26 13:29:32,158 - INFO - Searching arXiv for 'A Large-Area Flexible Tactile Sensor Based on Optical Fiber Microbending'
+2025-09-26 13:29:33,425 - WARNING - No arXiv PDF found for: A Large-Area Flexible Tactile Sensor Based on Optical Fiber Microbending
+2025-09-26 13:29:36,429 - INFO - Searching arXiv for 'A Variable Sensing Range Electrical Impedance Tomography Sensor for Robot Electric Skins'
+2025-09-26 13:29:37,829 - WARNING - No arXiv PDF found for: A Variable Sensing Range Electrical Impedance Tomography Sensor for Robot Electric Skins
+2025-09-26 13:29:40,833 - INFO - Searching arXiv for 'A Flexible 3-D Tactile Sensor Based on Optical Waveguide for Robotic Grasping'
+2025-09-26 13:29:44,006 - WARNING - No arXiv PDF found for: A Flexible 3-D Tactile Sensor Based on Optical Waveguide for Robotic Grasping
+2025-09-26 13:29:47,011 - INFO - Searching arXiv for 'Soft Tactile Fingertip for In-Hand Manipulation with High-Resolution Normal and Shear Force Sensing'
+2025-09-26 13:29:49,170 - WARNING - No arXiv PDF found for: Soft Tactile Fingertip for In-Hand Manipulation with High-Resolution Normal and Shear Force Sensing
+2025-09-26 13:29:52,175 - INFO - Searching arXiv for 'M3D-Skin: Multi-Material 3D-Printed Tactile Sensor with Hierarchical Infill Structures for Pressure Sensing'
+2025-09-26 13:30:02,688 - WARNING - No arXiv PDF found for: M3D-Skin: Multi-Material 3D-Printed Tactile Sensor with Hierarchical Infill Structures for Pressure Sensing
+2025-09-26 13:30:05,691 - INFO - Searching arXiv for 'High DOF Tendon-Driven Soft Hand: A Modular System for Versatile and Dexterous Manipulation'
+2025-09-26 13:30:07,088 - WARNING - No arXiv PDF found for: High DOF Tendon-Driven Soft Hand: A Modular System for Versatile and Dexterous Manipulation
+2025-09-26 13:30:10,091 - INFO - Searching arXiv for 'ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexterous Task Learning'
+2025-09-26 13:30:11,552 - WARNING - No arXiv PDF found for: ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexterous Task Learning
+2025-09-26 13:30:14,554 - INFO - Searching arXiv for 'The KIT Robotic Hands - a Scalable Humanoid Hand Platform with Multi-Modal Sensing and In-Hand Embedded Processing'
+2025-09-26 13:30:15,831 - WARNING - No arXiv PDF found for: The KIT Robotic Hands - a Scalable Humanoid Hand Platform with Multi-Modal Sensing and In-Hand Embedded Processing
+2025-09-26 13:30:18,834 - INFO - Searching arXiv for 'SkB-Hand: A Skeleton Bionic Hand with Dual-Tendon for General Purpose Robotic Grasping Tasks'
+2025-09-26 13:30:20,145 - WARNING - No arXiv PDF found for: SkB-Hand: A Skeleton Bionic Hand with Dual-Tendon for General Purpose Robotic Grasping Tasks
+2025-09-26 13:30:23,151 - INFO - Searching arXiv for 'SPARK Hand: Scooping-Pinching Adaptive Robotic Hand with Kempe Mechanism for Passive Grasp in Environmental Constraints'
+2025-09-26 13:30:24,375 - WARNING - No arXiv PDF found for: SPARK Hand: Scooping-Pinching Adaptive Robotic Hand with Kempe Mechanism for Passive Grasp in Environmental Constraints
+2025-09-26 13:30:27,376 - INFO - Searching arXiv for 'TransSoft: The Low-Cost, Adaptable, and Radial Reconfigurable Soft Hand for Diverse Object Grasping'
+2025-09-26 13:30:28,623 - WARNING - No arXiv PDF found for: TransSoft: The Low-Cost, Adaptable, and Radial Reconfigurable Soft Hand for Diverse Object Grasping
+2025-09-26 13:30:31,629 - INFO - Searching arXiv for 'High Resolution, Large Area Vision-Based Tactile Sensing Based on a Novel Piezoluminescent Skin'
+2025-09-26 13:30:32,861 - WARNING - No arXiv PDF found for: High Resolution, Large Area Vision-Based Tactile Sensing Based on a Novel Piezoluminescent Skin
+2025-09-26 13:30:35,867 - INFO - Searching arXiv for 'A Bio-Inspired Stiffness-Programmable Robotic Flexible Joint Based on Electro-Adhesive Clutches'
+2025-09-26 13:30:37,141 - WARNING - No arXiv PDF found for: A Bio-Inspired Stiffness-Programmable Robotic Flexible Joint Based on Electro-Adhesive Clutches
+2025-09-26 13:30:40,144 - INFO - Searching arXiv for 'Stress-Driven Algorithm for Fiber Alignment in Smart Materials for Controlled Deformation in 4D-Printed Soft Robotics'
+2025-09-26 13:30:41,368 - WARNING - No arXiv PDF found for: Stress-Driven Algorithm for Fiber Alignment in Smart Materials for Controlled Deformation in 4D-Printed Soft Robotics
+2025-09-26 13:30:44,368 - INFO - Searching arXiv for 'Self-Sensing Liquid Crystal Elastomer Actuator with Magnetic-Thermal Synergy'
+2025-09-26 13:30:45,594 - WARNING - No arXiv PDF found for: Self-Sensing Liquid Crystal Elastomer Actuator with Magnetic-Thermal Synergy
+2025-09-26 13:30:48,598 - INFO - Searching arXiv for 'Bioinspired Directional Adhesives Enable High Stiffness Layer Jamming in Soft Actulators'
+2025-09-26 13:30:50,012 - WARNING - No arXiv PDF found for: Bioinspired Directional Adhesives Enable High Stiffness Layer Jamming in Soft Actulators
+2025-09-26 13:30:53,014 - INFO - Searching arXiv for 'Soft Actuators with Integrated Electrohydrodynamic Pump and Intrinsic Electroadhesion'
+2025-09-26 13:30:54,456 - WARNING - No arXiv PDF found for: Soft Actuators with Integrated Electrohydrodynamic Pump and Intrinsic Electroadhesion
+2025-09-26 13:30:57,461 - INFO - Searching arXiv for 'Reconfigurable Soft Pneumatic Actuators Using Multi-Material Self-Healing Polymers'
+2025-09-26 13:30:58,926 - WARNING - No arXiv PDF found for: Reconfigurable Soft Pneumatic Actuators Using Multi-Material Self-Healing Polymers
+2025-09-26 13:31:01,927 - INFO - Searching arXiv for 'Modeling of Viscoelastic Liquid Crystal Elastomer Actuators'
+2025-09-26 13:31:03,185 - WARNING - No arXiv PDF found for: Modeling of Viscoelastic Liquid Crystal Elastomer Actuators
+2025-09-26 13:31:06,191 - INFO - Searching arXiv for 'Educational SoftHand-A: Building an Anthropomorphic Hand with Soft Synergies Using LEGO® MINDSTORMS®'
+2025-09-26 13:31:07,444 - WARNING - No arXiv PDF found for: Educational SoftHand-A: Building an Anthropomorphic Hand with Soft Synergies Using LEGO® MINDSTORMS®
+2025-09-26 13:31:10,447 - INFO - Searching arXiv for 'A Crab-Inspired Soft Gripper with Single-Finger Dexterous Grasping Capabilities'
+2025-09-26 13:31:11,677 - WARNING - No arXiv PDF found for: A Crab-Inspired Soft Gripper with Single-Finger Dexterous Grasping Capabilities
+2025-09-26 13:31:14,683 - INFO - Searching arXiv for 'Origami-Inspired Soft Gripper with Tunable Constant Force Output'
+2025-09-26 13:31:15,981 - WARNING - No arXiv PDF found for: Origami-Inspired Soft Gripper with Tunable Constant Force Output
+2025-09-26 13:31:18,987 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/Grasp EveryThing (GET) 1-DoF, 3-Fingered Gripper with Tactile Sensing for Robust Grasping.pdf. Skipping.
+2025-09-26 13:31:18,988 - INFO - Searching arXiv for 'Vision-Based Tactile Sensor Using Light-Conductive Plate for Enhanced Force Sensing Capability'
+2025-09-26 13:31:20,234 - WARNING - No arXiv PDF found for: Vision-Based Tactile Sensor Using Light-Conductive Plate for Enhanced Force Sensing Capability
+2025-09-26 13:31:23,236 - INFO - Searching arXiv for 'VibeCheck: Using Active Acoustic Tactile Sensing for Contact-Rich Manipulation'
+2025-09-26 13:31:24,514 - WARNING - No arXiv PDF found for: VibeCheck: Using Active Acoustic Tactile Sensing for Contact-Rich Manipulation
+2025-09-26 13:31:27,520 - INFO - Searching arXiv for 'Disambiguate Gripper State in Grasp-Based Tasks: Pseudo-Tactile As Feedback Enables Pure Simulation Learning'
+2025-09-26 13:31:28,794 - WARNING - No arXiv PDF found for: Disambiguate Gripper State in Grasp-Based Tasks: Pseudo-Tactile As Feedback Enables Pure Simulation Learning
+2025-09-26 13:31:31,796 - INFO - Searching arXiv for 'A Novel Robot Hand with Hoeckens Linkages and Soft Phalanges for Scooping and Self-Adaptive Grasping in Environmental Constraints'
+2025-09-26 13:31:34,701 - WARNING - No arXiv PDF found for: A Novel Robot Hand with Hoeckens Linkages and Soft Phalanges for Scooping and Self-Adaptive Grasping in Environmental Constraints
+2025-09-26 13:31:37,705 - INFO - Searching arXiv for 'Learning Dexterous In-Hand Manipulation with Multifingered Hands Via Visuomotor Diffusion'
+2025-09-26 13:31:38,938 - WARNING - No arXiv PDF found for: Learning Dexterous In-Hand Manipulation with Multifingered Hands Via Visuomotor Diffusion
+2025-09-26 13:31:41,939 - INFO - Searching arXiv for 'Multi-Fingered Robotic Hand Grasping in Cluttered Environments through Hand-Object Contact Semantic Mapping'
+2025-09-26 13:31:43,176 - WARNING - No arXiv PDF found for: Multi-Fingered Robotic Hand Grasping in Cluttered Environments through Hand-Object Contact Semantic Mapping
+2025-09-26 13:31:46,182 - INFO - Searching arXiv for 'Wearable Roller Rings to Augment In-Hand Manipulation through Active Surfaces'
+2025-09-26 13:31:47,409 - WARNING - No arXiv PDF found for: Wearable Roller Rings to Augment In-Hand Manipulation through Active Surfaces
+2025-09-26 13:31:50,415 - INFO - Searching arXiv for 'Vibration-Induced Friction Modulation to Enable Controlled Sliding for In-Hand Manipulation'
+2025-09-26 13:31:51,724 - WARNING - No arXiv PDF found for: Vibration-Induced Friction Modulation to Enable Controlled Sliding for In-Hand Manipulation
+2025-09-26 13:31:54,728 - INFO - Searching arXiv for 'Open-Loop Deep Reinforcement Learning Control of Soft Robotic In-Hand Manipulations'
+2025-09-26 13:31:55,970 - WARNING - No arXiv PDF found for: Open-Loop Deep Reinforcement Learning Control of Soft Robotic In-Hand Manipulations
+2025-09-26 13:31:58,975 - INFO - Searching arXiv for 'Peg-In-Hole Assembly Method Based on Visual Reinforcement Learning and Tactile Pose Estimation'
+2025-09-26 13:32:00,262 - WARNING - No arXiv PDF found for: Peg-In-Hole Assembly Method Based on Visual Reinforcement Learning and Tactile Pose Estimation
+2025-09-26 13:32:03,267 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/Haptic-ACT Bridging Human Intuition with Compliant Robotic Manipulation Via Immersive VR.pdf. Skipping.
+2025-09-26 13:32:03,268 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/AeroHaptix A Wearable Vibrotactile Feedback System for Enhancing Collision Avoidance in UAV Teleoperation.pdf. Skipping.
+2025-09-26 13:32:03,268 - INFO - Searching arXiv for 'Compact LED-Based Displacement Sensing for Robot Fingers'
+2025-09-26 13:32:04,620 - WARNING - No arXiv PDF found for: Compact LED-Based Displacement Sensing for Robot Fingers
+2025-09-26 13:32:07,622 - INFO - Searching arXiv for 'A Flexible Bending Sensor Based on C-Shaped FBG Array for Curvature and Gesture Recognition'
+2025-09-26 13:32:08,921 - WARNING - No arXiv PDF found for: A Flexible Bending Sensor Based on C-Shaped FBG Array for Curvature and Gesture Recognition
+2025-09-26 13:32:11,927 - INFO - Searching arXiv for 'Three-Axis Flat and Lightweight Force/Torque Sensor for Enhancing Kinesthetic Sensing Capability of Robotic Hand (I)'
+2025-09-26 13:32:13,158 - WARNING - No arXiv PDF found for: Three-Axis Flat and Lightweight Force/Torque Sensor for Enhancing Kinesthetic Sensing Capability of Robotic Hand (I)
+2025-09-26 13:32:16,160 - INFO - Searching arXiv for 'A Lightweight Haptic Interface for Hand-To-Object Tasks with Spatiotemporal Displays (I)'
+2025-09-26 13:32:17,521 - WARNING - No arXiv PDF found for: A Lightweight Haptic Interface for Hand-To-Object Tasks with Spatiotemporal Displays (I)
+2025-09-26 13:32:20,526 - INFO - Searching arXiv for 'Wearing a Robotic Hand to Feel 3D Force Feedback: Analysis and Virtual Reality Application of the Hand-In-Hand System'
+2025-09-26 13:32:21,749 - WARNING - No arXiv PDF found for: Wearing a Robotic Hand to Feel 3D Force Feedback: Analysis and Virtual Reality Application of the Hand-In-Hand System
+2025-09-26 13:32:24,751 - INFO - File already exists: /Users/matto/Desktop/IROS/downloads/RoTipBot Robotic Handling of Thin and Flexible Objects Using Rotatable Tactile Sensors.pdf. Skipping.
+2025-09-26 13:32:24,751 - INFO - Searching arXiv for 'A Two-Stage Dynamic Parameters Identification Approach Based on Kalman Filter for Haptic Rendering in Telerobotics'
+2025-09-26 13:32:26,066 - WARNING - No arXiv PDF found for: A Two-Stage Dynamic Parameters Identification Approach Based on Kalman Filter for Haptic Rendering in Telerobotics
+2025-09-26 13:32:29,071 - INFO - Searching arXiv for 'Haptic Shared Control of a Pair of Microrobots for Telemanipulation Using Constrained Optimization'
+2025-09-26 13:32:30,354 - WARNING - No arXiv PDF found for: Haptic Shared Control of a Pair of Microrobots for Telemanipulation Using Constrained Optimization
+2025-09-26 13:32:33,355 - INFO - Searching arXiv for 'A Rigid-Flexible Coupled Bionic Robotic Finger with Perception Decoupling and Slip Detection Capabilities'
+2025-09-26 13:32:36,062 - WARNING - No arXiv PDF found for: A Rigid-Flexible Coupled Bionic Robotic Finger with Perception Decoupling and Slip Detection Capabilities
+2025-09-26 13:32:39,068 - INFO - Searching arXiv for 'Design of a Reconfigurable Gripper with Rigid-Flexible Variable Fingers (I)'
+2025-09-26 13:32:41,423 - WARNING - No arXiv PDF found for: Design of a Reconfigurable Gripper with Rigid-Flexible Variable Fingers (I)
+2025-09-26 13:32:44,428 - INFO - Searching arXiv for 'A Novel Gripper with Semi-Peaucellier Linkage and Idle-Stroke Mechanism for Linear Pinching and Self-Adaptive Grasping'
+2025-09-26 13:32:45,699 - WARNING - No arXiv PDF found for: A Novel Gripper with Semi-Peaucellier Linkage and Idle-Stroke Mechanism for Linear Pinching and Self-Adaptive Grasping
+2025-09-26 13:32:48,704 - INFO - Searching arXiv for 'An Inflatable Deployable Origami Grasper for Adaptive and High-Load Grasping'
+2025-09-26 13:32:49,947 - WARNING - No arXiv PDF found for: An Inflatable Deployable Origami Grasper for Adaptive and High-Load Grasping
+2025-09-26 13:32:52,952 - INFO - Searching arXiv for 'Haptic-Informed ACT with a Soft Gripper and Recovery-Informed Training for Pseudo Oocyte Manipulation'
+2025-09-26 13:32:54,273 - WARNING - No arXiv PDF found for: Haptic-Informed ACT with a Soft Gripper and Recovery-Informed Training for Pseudo Oocyte Manipulation
+2025-09-26 13:32:57,277 - INFO - Searching arXiv for 'Touch-Linked Sleeve: A Haptic Interface for Augmented Tactile Perception in Robotic Teleoperation'
+2025-09-26 13:32:58,530 - WARNING - No arXiv PDF found for: Touch-Linked Sleeve: A Haptic Interface for Augmented Tactile Perception in Robotic Teleoperation
+2025-09-26 13:33:01,536 - INFO - Searching arXiv for 'Touch-Sensitive Hand Interactions for Social Robots Using Fiber Bragg Grating Sensors'
+2025-09-26 13:33:02,784 - WARNING - No arXiv PDF found for: Touch-Sensitive Hand Interactions for Social Robots Using Fiber Bragg Grating Sensors
+2025-09-26 13:33:05,787 - INFO - Searching arXiv for 'Human-Inspired Soft Anthropomorphic Hand System for Neuromorphic Object and Pose Recognition Using Multimodal Signals'
+2025-09-26 13:33:07,136 - WARNING - No arXiv PDF found for: Human-Inspired Soft Anthropomorphic Hand System for Neuromorphic Object and Pose Recognition Using Multimodal Signals
+2025-09-26 13:33:10,137 - INFO - Searching arXiv for 'A Multimodal Robust Recognition Method for Grasping Objects with Robot Flexible Grippers (I)'
+2025-09-26 13:33:11,388 - WARNING - No arXiv PDF found for: A Multimodal Robust Recognition Method for Grasping Objects with Robot Flexible Grippers (I)
+2025-09-26 13:33:14,393 - INFO - Searching arXiv for 'Electrical Impedance Tomography Based Finger-Shaped Soft Artificial Skin'
+2025-09-26 13:33:15,641 - WARNING - No arXiv PDF found for: Electrical Impedance Tomography Based Finger-Shaped Soft Artificial Skin
+2025-09-26 13:33:18,645 - INFO - Searching arXiv for 'A Bio-Inspired Flexible Fingertip with Multimodal Tactile Sensing for Simultaneous Perception of Material and Force'
+2025-09-26 13:33:19,929 - WARNING - No arXiv PDF found for: A Bio-Inspired Flexible Fingertip with Multimodal Tactile Sensing for Simultaneous Perception of Material and Force
+2025-09-26 13:33:22,933 - INFO - Searching arXiv for 'A Drivingâ€“Clamping Integrated Inchworm Linear Piezoelectric Actuator with Miniaturization and High Thrust Density (I)'
+2025-09-26 13:33:24,193 - WARNING - No arXiv PDF found for: A Drivingâ€“Clamping Integrated Inchworm Linear Piezoelectric Actuator with Miniaturization and High Thrust Density (I)
+2025-09-26 13:33:27,194 - INFO - Searching arXiv for 'A Compact Robotic Wrist with Embedded Torque Sensing for Peg-In-Hole Tasks'
+2025-09-26 13:33:28,472 - WARNING - No arXiv PDF found for: A Compact Robotic Wrist with Embedded Torque Sensing for Peg-In-Hole Tasks
+2025-09-26 13:33:31,475 - INFO - Searching arXiv for 'A Compliant Tube for Series Elastic Actuators to Generate High Output Torque'
+2025-09-26 13:33:32,735 - WARNING - No arXiv PDF found for: A Compliant Tube for Series Elastic Actuators to Generate High Output Torque
+2025-09-26 13:33:35,741 - INFO - Searching arXiv for 'Design and Control of Soft Robotic Wearable with SMA-Based Artificial Muscle Fibers for Ankle Assistance'
+2025-09-26 13:33:36,951 - WARNING - No arXiv PDF found for: Design and Control of Soft Robotic Wearable with SMA-Based Artificial Muscle Fibers for Ankle Assistance
+2025-09-26 13:33:39,952 - INFO - Searching arXiv for 'A Lightweight Haptic Interface for Hand-To-Object Tasks with Spatiotemporal Displays (I)'
+2025-09-26 13:33:40,998 - WARNING - No arXiv PDF found for: A Lightweight Haptic Interface for Hand-To-Object Tasks with Spatiotemporal Displays (I)
+2025-09-26 13:33:44,003 - INFO - Searching arXiv for 'Exo-ViHa: A Cross-Platform Exoskeleton System with Visual and Haptic Feedback for Efficient Dexterous Skill Learning'
+2025-09-26 13:33:45,258 - WARNING - No arXiv PDF found for: Exo-ViHa: A Cross-Platform Exoskeleton System with Visual and Haptic Feedback for Efficient Dexterous Skill Learning
+2025-09-26 13:33:48,263 - INFO - Searching arXiv for 'A Variable-Stiffness Neck Exoskeleton with Pneumatic-Driven Actuators for Prolonged Head Flexion Assistance'
+2025-09-26 13:33:49,744 - WARNING - No arXiv PDF found for: A Variable-Stiffness Neck Exoskeleton with Pneumatic-Driven Actuators for Prolonged Head Flexion Assistance
+2025-09-26 13:33:52,747 - INFO - Searching arXiv for 'Development of Wearable Assistive Robots Using Artificial Muscle for Older Adults'
+2025-09-26 13:33:53,957 - WARNING - No arXiv PDF found for: Development of Wearable Assistive Robots Using Artificial Muscle for Older Adults
+2025-09-26 13:33:56,962 - INFO - Searching arXiv for 'A Variable Stiffness Supernumerary Robotic Limb with Pneumatic-Tendon Coupled Actuation'
+2025-09-26 13:33:58,213 - WARNING - No arXiv PDF found for: A Variable Stiffness Supernumerary Robotic Limb with Pneumatic-Tendon Coupled Actuation
+2025-09-26 13:34:01,214 - INFO - Searching arXiv for 'A Deep Reinforcement Learning Based End-To-End Control Framework for Lower Limb Exoskeletons with Smooth Movement Transitions'
+2025-09-26 13:34:02,491 - WARNING - No arXiv PDF found for: A Deep Reinforcement Learning Based End-To-End Control Framework for Lower Limb Exoskeletons with Smooth Movement Transitions
+2025-09-26 13:34:05,495 - INFO - Searching arXiv for 'Mirror Adaptive Impedance Control of Multi-Mode Soft Exoskeleton with Reinforcement Learning (I)'
+2025-09-26 13:34:06,729 - WARNING - No arXiv PDF found for: Mirror Adaptive Impedance Control of Multi-Mode Soft Exoskeleton with Reinforcement Learning (I)
+2025-09-26 13:34:09,734 - INFO - Searching arXiv for 'A Multi-Layered Quantitative Assessment Approach for Hand Spasticity Based on a Cable-Actuated Hand Exoskeleton'
+2025-09-26 13:34:10,942 - WARNING - No arXiv PDF found for: A Multi-Layered Quantitative Assessment Approach for Hand Spasticity Based on a Cable-Actuated Hand Exoskeleton
+2025-09-26 13:34:13,949 - INFO - Searching arXiv for 'An Improved Flexible Hand Exoskeleton with SEA for Finger Strength Estimation and Progressive Resistance Exercise'
+2025-09-26 13:34:15,245 - WARNING - No arXiv PDF found for: An Improved Flexible Hand Exoskeleton with SEA for Finger Strength Estimation and Progressive Resistance Exercise
+2025-09-26 13:34:18,247 - INFO - Searching arXiv for 'A Hybrid Variable-Stiffness Soft Back Support Device'
+2025-09-26 13:34:19,745 - WARNING - No arXiv PDF found for: A Hybrid Variable-Stiffness Soft Back Support Device
+2025-09-26 13:34:22,749 - INFO - Searching arXiv for 'PneuChip: A Compact Pneumatic Controller for Large-Scale Soft Artificial Muscles'
+2025-09-26 13:34:23,942 - WARNING - No arXiv PDF found for: PneuChip: A Compact Pneumatic Controller for Large-Scale Soft Artificial Muscles
+2025-09-26 13:34:26,948 - INFO - Searching arXiv for 'Eversion Robot for Endoscopic Vein Harvesting'
+2025-09-26 13:34:28,169 - WARNING - No arXiv PDF found for: Eversion Robot for Endoscopic Vein Harvesting
+2025-09-26 13:34:31,174 - INFO - Searching arXiv for 'Muscle-On-A-Chip: A Self-Healing Actuator Platform in Robotic Systems'
+2025-09-26 13:34:32,480 - WARNING - No arXiv PDF found for: Muscle-On-A-Chip: A Self-Healing Actuator Platform in Robotic Systems
+2025-09-26 13:34:35,485 - INFO - Searching arXiv for 'PNEUmorph: A Shape-Morphing Interface Comprising a Pneumatic Membrane Constrained by Variable-Length Tendons'
+2025-09-26 13:34:37,004 - WARNING - No arXiv PDF found for: PNEUmorph: A Shape-Morphing Interface Comprising a Pneumatic Membrane Constrained by Variable-Length Tendons
+2025-09-26 13:34:40,010 - INFO - --- Script Execution Finished ---

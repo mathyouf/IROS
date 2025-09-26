@@ -144,6 +144,22 @@
         .toggle-container {
             text-align: center;
             margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .download-btn {
+            margin-left: 20px;
+            padding: 8px 15px;
+            background-color: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+            transition: background-color 0.2s;
+        }
+        .download-btn:hover {
+            background-color: #004494;
         }
     </style>
 </head>
@@ -155,6 +171,7 @@
             <label>
                 <input type="checkbox" id="highlight-toggle" checked> Show only sessions with my papers
             </label>
+            <a href="highlighted_papers.csv" download="highlighted_papers.csv" class="download-btn">Download Highlights</a>
         </div>
         <div id="schedule"></div>
     </div>
